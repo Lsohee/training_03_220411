@@ -29,7 +29,7 @@ body {
 
   transition: color 0.3s ease;
   // 컬러값에만 가속도 변화를 부여한 화면전환을 진행 시키겠다는 뜻
-  // ease 정해진 베지어 곡선값
+  // ease 정해진 베지어 곡선값 중 하나
 }
 
 #menu-toggle a:hover {
@@ -45,7 +45,7 @@ body {
   top: -7px;
   left: -5px;
 
-  // 커서 올렸을때 변화
+  // 마우스 올렸을때 커서 모양 변화
   cursor: pointer;
 
   opacity: 0;
@@ -65,6 +65,11 @@ body {
   border-radius: 3px;
 
   z-index: 1;
+
+  // transform 원본을 변형하는 태그
+  // transition 애니메이션 효과
+  
+  
 
   // transform setting
   transform-origin: 4px 0px;
